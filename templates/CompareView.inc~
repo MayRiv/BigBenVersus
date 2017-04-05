@@ -1,0 +1,10 @@
+<?php getView("HeaderView.inc", null); ?>
+<div id="feed">
+	<table>
+	<tr>
+		<th><?=$obо[0]["Nick"]?></th><th><?=$obо[1]["Nick"]?></th>
+	</tr>
+	</table>
+</div>
+<?php getView("Footer.inc", null); ?>
+</body>
